@@ -9,7 +9,10 @@ $(document).ready(function () {
 
 // Swiperのオプションを定数化
 const opt = {
-  loop: true, 
+  loop: true,
+  autoplay: {
+    delay: 2000, // 2秒ごとにスライドを自動で切り替える
+  },
   pagination: { 
     el: '.swiper-pagination', 
   },
